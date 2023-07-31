@@ -110,9 +110,8 @@
 
 
 .img1 {
-    width: 550px;
-    max-width: 100%;
-    max-height: auto;
+    width: 330px;
+
    
 }
 
@@ -129,31 +128,37 @@
 }
 
    
-#button1 {
- height: 45px;   
- width: 1017px;
- margin-top: -10px;
- margin-bottom: 30px;
+.button1 {
+    height: 45px;
+    margin-top: -20px;
+    margin-bottom: 40px;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  font-size: 18px;
  color: aliceblue;
  background-color: black;
+ display: block;
+ width: 100%;
+  border-radius: 5px;
 }
 
 .workGrid p {
-    padding-right: 200px;
+    padding-right: 100px;
     width: auto;
     height: auto;
     font-size: 14px;
     color: white;
+    margin-top: -20px;
+    margin-bottom: 20px;
 }
 
-#view {
+.view {
    height: 35px;
 width: 150px;
 color: white;
 background-color: black;
-
+border-radius: 5px;
+display: inline-block;
+width: 70%;
 }
 
 
@@ -173,3 +178,4 @@ background-color: black;
     }
 }
 
+@media all and (max-width: 680px)
