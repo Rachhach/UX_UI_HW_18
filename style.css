@@ -86,6 +86,10 @@
 }
 
 .myWork {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 80px;
@@ -95,24 +99,18 @@
 }
 
 
-.item1 {
-    grid-area: myArea;
-}
-
 .workGrid {
     display: grid;
-    grid-template-areas: "myArea myArea MyArea myArea myArea";
-    grid-template-rows: 27% 27% 27% 12%;
+      grid-template-rows: 33% 33% 33%;
       grid-template-columns: 40% 60%;
     row-gap: 50px;
-    column-gap: 80px;
+    column-gap: 50px;
        }
 
 
 .img1 {
-    width: 330px;
-
-   
+   display: flex;
+   width: 100%; 
 }
 
 .myWork h1 {
@@ -130,7 +128,7 @@
    
 .button1 {
     height: 45px;
-    margin-top: -20px;
+    margin-top: 125px;
     margin-bottom: 40px;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  font-size: 18px;
@@ -152,13 +150,17 @@
 }
 
 .view {
-   height: 35px;
-width: 150px;
+display: flex;
+flex-direction: row;
+width: 20%;
+font-size: 14px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: white;
 background-color: black;
 border-radius: 5px;
-display: inline-block;
-width: 70%;
+text-align: center;
+padding: 5px;
+justify-content: center;
 }
 
 
@@ -178,4 +180,6 @@ width: 70%;
     }
 }
 
-@media all and (max-width: 680px)
+@media all and (max-width: 1165px)
+
+
