@@ -102,9 +102,9 @@
 .workGrid {
     display: grid;
       grid-template-rows: 33% 33% 33%;
-      grid-template-columns: 40% 60%;
+      grid-template-columns: 40% 50%;
     row-gap: 30px;
-    column-gap: 50px;
+    column-gap: 30px;
        }
 
 
@@ -182,16 +182,34 @@ justify-content: center;
     }
 }
 
-@media all and (max-width: 1165px) {
+@media all and (max-width: 1227px) {
     .view {
         width: 30%;
     }
 
     .workGrid h4 {
-        font-size: 24px;
+               font-size: 24px;
         }
 
-}
+        .workGrid {
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+        } 
+   
+     .img1 {
+                display: flex;
+                width: 100%; 
+                height: auto;
+                 }
+
+    }
+
+    @media all and (max-width: 600px) {
+
+      
+
+
 
 
 
